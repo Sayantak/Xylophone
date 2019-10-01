@@ -17,7 +17,7 @@ class XylophoneApp extends StatelessWidget {
         },
         child: Text(
           name,
-          style: TextStyle(fontFamily: 'Pacifico'),
+          style: TextStyle(fontFamily: 'Pacifico'), //Imported Font use
         ),
         color: c,
       ),
