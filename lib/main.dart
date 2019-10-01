@@ -45,7 +45,7 @@ class XylophoneApp extends StatelessWidget {
           ),
         ),
       ),
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false, //Removes Debug Banner
     );
   }
 }
