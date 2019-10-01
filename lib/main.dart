@@ -33,7 +33,7 @@ class XylophoneApp extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: <Widget>[
+            children: <Widget>[ //Conatins keys to be played
               buildKey(1, 'Do', Colors.red),
               buildKey(2, 'Re', Colors.orange),
               buildKey(3, 'Mi', Colors.yellow),
