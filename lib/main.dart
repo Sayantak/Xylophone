@@ -13,7 +13,7 @@ class XylophoneApp extends StatelessWidget {
     return Expanded(
       child: FlatButton(
         onPressed: () {
-          soundPlay(soundNumber); //TODO: Find the 8th Octet sound of a Xylophone
+          soundPlay(soundNumber);
         },
         child: Text(
           name,
@@ -41,7 +41,15 @@ class XylophoneApp extends StatelessWidget {
               buildKey(5, 'So', Colors.teal),
               buildKey(6, 'La', Colors.blue),
               buildKey(7, 'Ti', Colors.purple),
-              buildKey(8, 'Do', Colors.violet),
+              buildKey(8, 'Do', Colors.violet), //Added the 8th Octet sound
+              buildKey(9, 'Do', Colors.red),
+              buildKey(10, 'Re', Colors.orange),
+              buildKey(11, 'Mi', Colors.yellow),
+              buildKey(12, 'Fa', Colors.green),
+              buildKey(13, 'So', Colors.teal),
+              buildKey(14, 'La', Colors.blue),
+              buildKey(15, 'Ti', Colors.purple),
+              buildKey(16, 'Do', Colors.violet), //Added two octets to the app
             ],
           ),
         ),
